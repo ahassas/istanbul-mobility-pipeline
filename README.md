@@ -2,7 +2,7 @@
 
 End-to-end data pipeline that analyzes hourly public transport usage in Istanbul, enriched with weather and public holiday data.
 
-> 🚧 Work in progress. Current milestone: **M0 – Project setup**
+> 🚧 Work in progress.
 
 ## Business question
 
@@ -45,11 +45,3 @@ make psql    # open a SQL shell
 make help    # list all commands
 ```
 
-## Roadmap
-
-- [ ] **M0** – Project setup (repo, Docker, Makefile)
-- [ ] **M1** – Python ingestion (idempotent, incremental loads)
-- [ ] **M2** – Hand-written SQL transformations and data quality checks
-- [ ] **M3** – Migration to dbt and star schema
-- [ ] **M4** – Analysis and dashboard
-- [ ] **M5** – CI/CD, linting and documentation
